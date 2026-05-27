@@ -4,7 +4,7 @@ plugins {
 
 // Replace with your actual group ID and version
 group = 'com.nsenterprise.photoenhancer'
-version = '1.0.1'
+version = '1.0.2'
 
 // JitPack runs the 'assemble' task by default. We create a dummy one so it doesn't fail.
 task assemble {
@@ -18,7 +18,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.nsenterprise.photoenhancer'
             artifactId = 'sdk' // This will be the name of your library
-            version = '1.0.1'
+            version = '1.0.2'
             
             // Point this to your actual AAR file name
             artifact("photoenhancer-release.aar") {
